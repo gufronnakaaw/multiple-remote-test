@@ -11,3 +11,6 @@ class Welcome {
 
 }
 
+const greeting = new Welcome('gufron', 'network engineering');
+
+console.log(greeting.getName());
