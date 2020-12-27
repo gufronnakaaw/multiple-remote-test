@@ -9,6 +9,10 @@ class Welcome {
     return this.name;
   }
 
+  getMajors(){
+    return this.majors;
+  }
+
 }
 
 const greeting = new Welcome('gufron', 'network engineering');
