@@ -21,6 +21,10 @@ class Welcome {
     this.name = name;
   }
 
+  setMajors(majors){
+    this.majors = majors;
+  }
+
 }
 
 const greeting = new Welcome('gufron', 'network engineering');
