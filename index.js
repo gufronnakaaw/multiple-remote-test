@@ -12,6 +12,10 @@ class Welcome {
   getMajors(){
     return this.majors;
   }
+  
+  setHobby(hobby){
+   this.hobby = hobby;
+  }
 
 }
 
