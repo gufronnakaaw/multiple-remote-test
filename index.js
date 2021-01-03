@@ -17,6 +17,10 @@ class Welcome {
    this.hobby = hobby;
   }
 
+  setName(name){
+    this.name = name;
+  }
+
 }
 
 const greeting = new Welcome('gufron', 'network engineering');
